@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* para nao duplicar o background */
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background: rgb(204,111,216);
+    background: linear-gradient(13deg, rgba(204,111,216,1) 8%, rgba(227,155,194,1) 89%);
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.avatar{
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 15px white;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0;
+}
+
+/* regra aninhada */
+.social img {
+    width: 33px;
+}
+
+.github-list {
+    list-style: none;
+}
+
+.github-list li {
+    margin: 10px 20px;
+}
+
+.github-list li a {
+    display: block;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(204,111,216);
+    font-weight: bold;
+    box-shadow: 0 0 15px #e245ab;
+}
+
+.github-list li a span {
+    color: black;
+    display: block;
+    margin-top: 5px;
+}
